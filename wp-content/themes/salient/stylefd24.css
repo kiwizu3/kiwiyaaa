@@ -2135,9 +2135,11 @@ body[data-button-style="slightly_rounded_shadow"] .widget_search input[type="sub
 
 body[data-button-style="rounded"] .nectar-button.medium:not(.see-through):not(.see-through-2):not(.see-through-3) {
 	padding: 12px 18px;
+	border-radius: 50px !important;
 }
 body .nectar-button.see-through:hover {
 	border: 2px solid rgba(255,255,255,1);
+	border-radius: 50px !important;
 }
 
 .col.light .nectar-button.see-through-2, .col.light .nectar-button.see-through-3 {
@@ -2147,19 +2149,23 @@ body .nectar-button.see-through:hover {
 .col.light .nectar-button.see-through {
 	border: 2px solid rgba(255,255,255,0.75);
 	color: #fff;
+	border-radius: 50px !important;
 }
 
 .col.light .nectar-button.see-through:hover {
 	border: 2px solid rgba(255,255,255,1);
+	border-radius: 50px !important;
 }
 
 .col.dark .nectar-button.see-through, .col.dark .nectar-button.see-through-2 {
 	border: 2px solid rgba(0,0,0,0.75);
 	color: #444444;
+	border-radius: 50px !important;
 }
 
 .col.dark .nectar-button.see-through:hover {
 	border: 2px solid rgba(0,0,0,1);
+	border-radius: 50px !important;
 }
 
 body .nectar-button.see-through-2:hover,
@@ -2170,6 +2176,7 @@ body .col.dark .nectar-button.see-through-3:hover {
 	background-color: #27CFC3;
 	color:	#fff;
 	opacity: 1!important;
+	border-radius: 50px !important;
 }
 
 h2 .nectar-button {
